@@ -5,7 +5,7 @@
 
 ### Ввод
 
-Изображение лабиринта в кодировке $RGB$ (см. папку `1_task\images\`).
+Изображение лабиринта в кодировке $RGB$ (см. папку `1_task/images/`).
 
 ### Вывод
 
@@ -13,7 +13,7 @@
 
 ### Решение
 
-Код с пояснениями: [Jupyter Lab](1_task\task1.ipynb)
+Код с пояснениями: [Jupyter Lab](1_task/task1.ipynb)
 
-Код: [Python](1_task\task1.py)
+Код: [Python](1_task/task1.py)
 
