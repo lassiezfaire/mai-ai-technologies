@@ -61,14 +61,14 @@ def plot_maze_path(path_to_image: str):
 path = r'images//20 by 20 orthogonal maze.png'
 plot_maze_path(path_to_image=path)
 
-# path = r'images//20 by 22 orthogonal maze.png'
-# plot_maze_path(path_to_image=path)
-#
-# path = r'images//25 by 22 orthogonal maze.png'
-# plot_maze_path(path_to_image=path)
-#
-# path = r'images//30 by 30 orthogonal maze.png'
-# plot_maze_path(path_to_image=path)
-#
-# path = r'images//30 by 30 orthogonal maze.png'
-# plot_maze_path(path_to_image=path)
+path = r'images//20 by 22 orthogonal maze.png'
+plot_maze_path(path_to_image=path)
+
+path = r'images//25 by 22 orthogonal maze.png'
+plot_maze_path(path_to_image=path)
+
+path = r'images//30 by 30 orthogonal maze.png'
+plot_maze_path(path_to_image=path)
+
+path = r'images//30 by 30 orthogonal maze.png'
+plot_maze_path(path_to_image=path)
