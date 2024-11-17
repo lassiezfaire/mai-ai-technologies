@@ -1,0 +1,11 @@
+name: cv
+dependencies:
+  - python=3.12.7
+  - pip
+  - pip:
+    - jupyterlab
+    - matplotlib
+    - numpy
+    - opencv-python
+    - scikit-image
+    - scikit-learn
