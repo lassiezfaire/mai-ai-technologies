@@ -45,6 +45,7 @@ def plot_maze_path(path_to_image: str):
     cv2.drawContours(solution, contours, 0, (255, 255, 255), 5)
     # plot_one_image(image=solution, title="Contours")
 
+
     kernel = np.ones((21, 21), np.uint8)
     dilated = cv2.dilate(solution, kernel, iterations=1)
     # plot_one_image(image=dilated, title="Applied dilation")
