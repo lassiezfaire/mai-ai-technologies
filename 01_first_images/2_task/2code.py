@@ -24,7 +24,7 @@ def plot_one_image(image: np.ndarray, title: str) -> None:
     ax.axis('off')
     plt.show()
 
-def find_road_number(path_to_image: str):
+def find_road_number(path_to_image: str) -> str:
     """
     Поиск номера полосы, на которую нужно перестроиться
 
@@ -32,7 +32,7 @@ def find_road_number(path_to_image: str):
     :return: строка с результатом
     """
 
-    img = cv2.imread(cv2.samples.findFile(path))
+    img = cv2.imread(cv2.samples.findFile(path_to_image))
 
     if img is None:
         sys.exit("Could not read the image.")
