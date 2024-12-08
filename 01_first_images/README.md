@@ -54,6 +54,3 @@
 Код с пояснениями: [Jupyter Notebook](3_task/3notebook.ipynb)
 
 Код: [Python](3_task/3code.py)
-
-
-
