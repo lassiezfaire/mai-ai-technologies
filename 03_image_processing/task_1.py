@@ -4,7 +4,6 @@ import os
 
 import cv2
 import matplotlib.pyplot as plt
-import numpy as np
 
 
 def create_mask(image, lower_bound, upper_bound):
@@ -53,13 +52,3 @@ def display_images(image_dir, color_ranges):
 
     plt.tight_layout()
     plt.show()
-
-
-color_ranges = {
-    "Forest": (np.array([35, 25, 25]), np.array([85, 255, 255])),
-    "Desert": (np.array([15, 25, 25]), np.array([35, 255, 255])),
-}
-
-image_directory = "desert_forest"
-
-display_images(image_directory, color_ranges)
